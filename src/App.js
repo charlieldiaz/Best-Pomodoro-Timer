@@ -11,7 +11,7 @@ function App() {
   const [workMinutes, setWorkMinutes] = useState(25);
   const [breakMinutes, setBreakMinutes] = useState(5);
   const [setTimers, timers] = useState({
-    mainLength: 25,
+    mainLength: 26,
     breakLength: 5,
     LongBreakLength: 15,
   });
