@@ -1,0 +1,26 @@
+:root {
+  --red: #ff2626;
+}
+
+main {
+  padding-top: 50px;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #282c34;
+  color: #eee;
+}
+
+.play,
+.pause,
+.back {
+  background-color: transparent;
+  color: rgb(30, 216, 114);
+  border: 0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
